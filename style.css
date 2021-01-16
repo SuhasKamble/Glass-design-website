@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+h1 {
+    color: #426696;
+    font-weight: 600;
+    font-size: 3rem;
+    opacity: 0.8;
+  }
+  h2,
+  p {
+    color: #658ec6;
+    font-weight: 500;
+    opacity: 0.8;
+  }
+  
+  h3 {
+    color: #426696;
+    font-weight: 600;
+    opacity: 0.8;
+  }
+
+main{
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right top,rgba(),rgba());
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.user{
+    text-align: center;
+}
+
+.glass{
+    height: 90vh;
+    width: 70%;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.3)
+      );
+    border-radius: 2rem;  
+    display: flex;
+}
+
+.dashboard{
+    flex: 1;   
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.3)
+      );
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;  
+    padding: 1rem;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+}
+.link{
+    display: flex;
+    margin: 0.6rem 0rem;
+    padding: 1rem 5rem;
+    align-items: center;
+}
+
+.link h2 {
+    padding: 0rem 2rem;
+  }
+  
+
+
+.pro{
+    display: flex;
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    border-radius: 2rem;
+    position: relative;
+    align-items: center;
+    padding: 1rem;
+    width: 80%;
+    height: 300px;
+}
+.pro h3{
+    color: white;
+    width: 40%;
+}
+
+.pro img{
+    position: absolute;
+    top: 0%;
+    right: 3%;
+}
+
+
+.games{
+    flex: 3;
+    padding: 2rem;
+}
+
+.status{
+    margin-bottom: 1rem;
+}
+
+
+.status h1{
+    font-size: 3rem;
+    opacity: 0.6;
+}
+.status input{
+    padding: 0.3rem;
+    width: 60%;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.3)
+      );
+      border-radius: 1rem;
+      outline: none;
+      border:  none;
+
+}
+
+.cards{
+margin-top:1rem;
+}
+
+.card{
+    display: flex;
+    padding: 1rem;
+    background: linear-gradient(
+        to left top,
+        rgba(255, 255, 255, 0.8),
+        rgba(255, 255, 255, 0.5)
+      );
+      margin-bottom: 2rem;
+      border-radius: 2rem;
+      display: flex;
+      justify-content: space-between;
+}
+.card-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.progress{
+    width: 100%;
+    height: 30px;
+    background: rgba(236, 236, 236, 0.9);
+    border-radius: 2rem;
+    position: relative;
+}
+.progress-bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    border-radius: 2rem;
+}
